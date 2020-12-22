@@ -21,31 +21,33 @@ Hironsan.txt: https://github.com/Hironsan/IOB2Corpus
 
 ```
 bert-for-japanese-ner
-|____ bert                  # git from [here](https://github.com/google-research/bert)
+|____ bert                  # git from https://github.com/google-research/bert
 |____ checkpoint	    	# config file
 |____ HironsanData		            # train data
-|____ ja_checkpoint	        # download from [here](https://drive.google.com/drive/folders/1Zsm9DD40lrUVu6iAnIuTH2ODIkh-WM-O?usp=sharing)
+|____ ja_checkpoint	        # download from https://drive.google.com/drive/folders/1Zsm9DD40lrUVu6iAnIuTH2ODIkh-WM-O?usp=sharing
 |____ ner_ber_multi			    # code of using Google's multilingual model
-	|____ bert				# need git from [here](https://github.com/cl-tohoku/bert-japanese)
-	|____ checkpoint		#download from [here](https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip)
+	|____ bert				# need git from https://github.com/cl-tohoku/bert-japanese
+	|____ checkpoint		#download from https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip
 	|____ HironsanData		            # train data
 	|____ output    		    # output of weight of the pre-trained model
 	|____ bert-ner.py			# main code
 |____ ner_mecab_4k		    # code of using 4k mecab tokenizer
-	|____ bert				# need git from [here](https://github.com/cl-tohoku/bert-japanese)
-	|____ checkpoint		#download from [here](https://www.nlp.ecei.tohoku.ac.jp/~m-suzuki/bert-japanese/BERT-base_mecab-ipadic-char-4k.tar.xz)
+	|____ bert				# need git from https://github.com/cl-tohoku/bert-japanese
+	|____ checkpoint		#download from https://www.nlp.ecei.tohoku.ac.jp/~m-suzuki/bert-japanese/BERT-base_mecab-ipadic-char-4k.tar.xz
 	|____ HironsanData		            # train data
 	|____ output    		    # output of weight of the pre-trained model
 	|____ bert-ner.py			# main code
 |____ ner_mecab_32k		    # code of using 32k mecab tokenizer
-	|____ bert				# need git from [here](https://github.com/cl-tohoku/bert-japanese)
-	|____ checkpoint		#download from [here](https://www.nlp.ecei.tohoku.ac.jp/~m-suzuki/bert-japanese/BERT-base_mecab-ipadic-bpe-32k.tar.xz)
+	|____ bert				# need git from https://github.com/cl-tohoku/bert-japanese
+	|____ checkpoint		#download from https://www.nlp.ecei.tohoku.ac.jp/~m-suzuki/bert-japanese/BERT-base_mecab-ipadic-bpe-32k.tar.xz
 	|____ HironsanData		            # train data
 	|____ output    		    # output of weight of the pre-trained model
 	|____ bert-ner.py			# main code
 |____ output    		    # output of weight of the pre-trained model
 |____ bert-ner.py			# main code
 ```
+
+
 
 ### Usage:
 
